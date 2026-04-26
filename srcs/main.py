@@ -21,8 +21,8 @@ VEHICLE_CLASSES      = [2, 3, 5, 7]
 METERS_PER_PIXEL     = 0.05
 FPS_FALLBACK         = 30
 SPEED_HISTORY_LEN    = 10
-PLATE_DETECT_EVERY   = 2       # 🔥 increased frequency
-OCR_CONF_THRESHOLD   = 0.2     # 🔥 lowered threshold
+PLATE_DETECT_EVERY   = 2       
+OCR_CONF_THRESHOLD   = 0.2    
 PRUNE_AFTER          = 90
 
 CLASS_NAMES = {2: "Car", 3: "Motorcycle", 5: "Bus", 7: "Truck"}

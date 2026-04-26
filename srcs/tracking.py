@@ -56,7 +56,7 @@ while cap.isOpened():
                     cv2.FONT_HERSHEY_SIMPLEX,
                     1.2, (0,255,255), 3)
 
-    # 🔥 Save ONLY 3 frames spaced apart
+    #  Save ONLY 3 frames spaced apart
     if frame_count % 30 == 0 and saved_frames < 3:
         cv2.imwrite(f"tracking_frame_{saved_frames+1}.jpg", frame)
         print(f"Saved tracking_frame_{saved_frames+1}.jpg")
